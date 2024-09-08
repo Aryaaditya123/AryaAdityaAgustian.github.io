@@ -1,0 +1,95 @@
+body {
+    background: linear-gradient(#9a08dd 0%, #dd4c4f 40%, #7420dd 100%);
+}
+.proile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.profileimage { 
+    width: 200px;    
+        width:200px;
+}
+
+.proile h2{
+    color:white;
+}
+.achievement {
+    padding-top: 55px;
+}
+
+.proile h4{
+    color:white;
+    transform: translateY(2px);
+}
+.achievement {
+    padding-top: 55px;
+}
+
+.biodata{
+    background: linear-gradient(#fcfcfc 0%, #f5f2f2a9 40%, #f5f4f500 100%);
+    padding-bottom: 200PX;
+}
+.achievement {
+    padding-top: 55px;
+}
+
+.Footer{
+    background-color: #fcfcfc;
+    padding-bottom: 20px;
+}
+
+/* Tambahkan gaya untuk tombol Instagram, Twitter, dan Telegram */
+.btn-instagram, .btn-twitter, .btn-telegram {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn-instagram {
+    background-color: #E4405F; /* Warna Instagram */
+}
+
+.btn-twitter {
+    background-color: #1DA1F2; /* Warna Twitter */
+}
+
+.btn-telegram {
+    background-color: #0088cc; /* Warna Telegram */
+}
+
+.btn-instagram i, .btn-twitter i, .btn-Pinterest{
+    margin-right: 8px; /* Jarak antara ikon dan teks */
+}
+
+.btn-instagram:hover, .btn-twitter:hover, .btn-Pinterest:hover {
+    opacity: 0.8;
+}
+
+/* Pastikan tombol berada di tengah */
+.text-center {
+    text-align: center;
+}
+.d-flex.flex-wrap {
+    gap: 10px; /* Tambahkan jarak antara card */
+}
+
+.card {
+    margin-bottom: 20px; /* Jarak bawah untuk card */
+}
+.modal-header .modal-title {
+    display: block;
+}
+.modal-header h5 {
+    display: block;
+    margin-bottom: 10px; /* Jarak antar teks */
+        text-align: left;
+}
